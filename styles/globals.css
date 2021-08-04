@@ -1,5 +1,18 @@
 /* if vs code shows warning , go to setting -> CSS> Lint:Unknown At Rules -> select ignore */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+
+  color: #fff;
+  background-color: black;
+  height: 100vh;
+}
+
+* {
+  /* border: 1px solid red; */
+}
